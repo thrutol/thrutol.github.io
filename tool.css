@@ -1,0 +1,151 @@
+out
+{
+ background-color:#282828;
+ border-style:outset;
+ border-width:1px;
+ box-shadow:0px 0px 10px black;
+ display:block;
+}
+in
+{
+ background-color:#F3F1E4;
+ border-style:inset;
+ border-width:1px;
+ box-shadow:0px 0px 10px black inset;
+ display:block;
+}
+o
+{
+ display:none;
+}
+option
+{
+ background-color:282828;
+ color:#AAAAAA;
+ display:block;
+ height:25px;
+ line-height:25px;
+ text-align:center;
+}
+option:hover
+{
+ background-color:#F3F1E4;
+ color:#777777;
+}
+header
+{
+ background-color:#F3F1E4;
+ color:#777777;
+ display:block;
+ height:25px;
+ line-height:25px;
+ text-align:center;
+}
+dropdown
+{
+ background-color:#F3F1E4;
+ color:#333333;
+ display:inline-block;
+ height:25px;
+ line-height:25px;
+ width:100px;
+}
+dropdown:hover
+{
+ background-color:#282828;
+ color:#bbbbbb;
+}
+dropdown > show
+{
+ background-color:#282828;
+ color:#bbbbbb;
+ display:none;
+ width:100%;
+}
+dropdown:hover > show
+{
+ display:block;
+}
+dropdown > show:hover
+{
+ display:block;
+}
+list
+{
+ background-color:#282828;
+ border-color:#F3F1E4;
+ border-radius:2px;
+ color:#AAAAAA;
+ display:block;
+}
+list > show
+{
+ background-color:#282828;
+ border-color:#F3F1E4;
+ border-radius:5px;
+ color:#AAAAAA;
+ display:none;
+ padding:5px;
+}
+list:hover > show
+{
+ display:block;
+}
+list > show:hover
+{
+ display:block;
+}
+/*edit*/
+label
+{
+ background-color:#282828;
+ border-color:#F3F1E4;
+ border-radius:50px;
+ border-style:solid;
+ border-width:1px;
+ color:#777777;
+ display:block;
+ height:25px;
+ line-height:25px;
+ position:fixed;
+ right:15px;
+ text-align:center;
+ font-size:15px;
+ top:15px;
+ transition:font-size 0.5s,height 0.5s,line-height 0.5s,width 0.5s;
+ width:25px;
+}
+label:hover
+{
+ background-color:#F3F1E4;
+ border-color:#282828;
+ color:#333333;
+ font-size:9px;
+ height:15px;
+ line-height:15px;
+ width:15px;
+}
+label + aside
+{
+ background-color:#282828;
+ border-color:#F3F1E4;
+ border-width:1px;
+ border-style:solid;
+ height:100%;
+ margin-top:0px;
+ margin-bottom:0px;
+ left:-200px;
+ position:fixed;
+ transition:left 1s;
+ width:150px;
+}
+label:hover + aside
+{
+ left:0px;
+ transition:left 1s;
+}
+label + aside:hover
+{
+ left:0px;
+ transition:left 0.5s;
+}

@@ -1,0 +1,21 @@
+a:link
+{
+    color:#aaaaaa;
+    text-decoration:none;
+}
+a:visited
+{
+    color:#888888;
+    text-decoration:none;
+}
+a:hover
+{
+    color:#000;
+    text-decoration:none;
+}
+
+.bg-w{background-color:#F3F1E4;}
+.bg-n{background-color:#282828;}
+.bg-m{background-color:#121212;}
+.txt-w{color:#ccc;font-family:"content";}
+.txt-n{color:#555;font-family:"text";}
