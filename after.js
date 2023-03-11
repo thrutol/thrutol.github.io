@@ -4,5 +4,5 @@ document.write('</in>\
    <pre><b class="ta-c">\
     <a href="index.html">主页</a>\
    </b></pre>\
-  </div>')
+  </div></body></html>')
 document.getElementById("showtitle").innerHTML = document.getElementById("title").innerHTML;
