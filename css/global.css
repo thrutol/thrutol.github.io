@@ -1,10 +1,17 @@
 *
 {
-    font-size:0.4rem;
+    font-size:4rem;
+}
+html
+{
+ margin:0px;
+ padding:0px;
 }
 body
 {
-    background-color:#282828;
+ background-color:#282828;
+ margin:0px;
+ padding:0px;
 }
 .B-100{bottom:100%;}
 .B-50{bottom:50%;}
