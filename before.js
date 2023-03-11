@@ -12,7 +12,7 @@ document.write('\
     <option><a href="mod.html">模组</a></option>\
    </aside>\
   <div class="bg-n H-25 txt-w">\
-   <p><b id="showtitle" style="font-size:50rem;">null</b></p>\
+   <p><b id="showtitle" style="font-size:5rem;">null</b></p>\
    \
-   <pre><b style="font-size:40rem;">    后室TH版</b></pre>\
+   <pre><b style="font-size:4rem;">    后室TH版</b></pre>\
   </div><in class="H-100 txt-w">');
