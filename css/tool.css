@@ -1,16 +1,18 @@
 out
 {
  background-color:#282828;
+ border-radius:10px;
  border-style:outset;
- border-width:1px;
+ border-width:2px;
  box-shadow:0px 0px 10px black;
  display:block;
 }
 in
 {
  background-color:#F3F1E4;
+ border-radius:10px;
  border-style:inset;
- border-width:1px;
+ border-width:2px;
  box-shadow:0px 0px 10px black inset;
  display:block;
 }
