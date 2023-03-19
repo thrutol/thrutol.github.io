@@ -1,15 +1,18 @@
 *
 {
-    font-size:1.5rem;
+  font-family:"text";
+  font-size:1vh;
 }
 html
 {
- margin:0px;
- padding:0px;
+  background-image:url("../image/background.jpg");
+  background-attachment:fixed;
+  background-repeat:round;
+  margin:0px;
+  padding:0px;
 }
 body
 {
- background-color:#282828;
  margin:0px;
  padding:0px;
 }
@@ -139,6 +142,10 @@ body
 .P-T{padding-top:0%;}
 .P-X{padding-left:0%;padding-right:0%;}
 .P-Y{padding-top:0%;padding-bottom:0%;}
+.po-a{position:absolute;}
+.po-f{position:fixed;}
+.po-r{position:relative;}
+.po-s{position:static;}
 
 .R-100{right:100%;}
 .R-50{right:50%;}

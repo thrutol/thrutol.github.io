@@ -1,50 +1,4 @@
-out
-{
- background-color:#282828;
- border-radius:10px;
- border-style:outset;
- border-width:2px;
- box-shadow:0px 0px 10px black;
- display:block;
-}
-in
-{
- background-color:#F3F1E4;
- border-radius:10px;
- border-style:inset;
- border-width:2px;
- box-shadow:0px 0px 10px black inset;
- display:block;
-}
-o
-{
- display:none;
-}
-option
-{
- background-color:282828;
- color:#AAAAAA;
- display:block;
- height:25px;
- line-height:25px;
- text-align:center;
-}
-option:hover
-{
- background-color:#F3F1E4;
- color:#777777;
-}
-header
-{
- background-color:#F3F1E4;
- color:#777777;
- display:block;
- height:25px;
- line-height:25px;
- text-align:center;
-}
-dropdown
-{
+dropdown{
  background-color:#F3F1E4;
  color:#333333;
  display:inline-block;
@@ -52,102 +6,143 @@ dropdown
  line-height:25px;
  width:100px;
 }
-dropdown:hover
-{
- background-color:#282828;
+dropdown:hover{
+ background-color:#333333;
  color:#bbbbbb;
 }
-dropdown > show
-{
- background-color:#282828;
+dropdown > show{
+ background-color:#333333;
  color:#bbbbbb;
  display:none;
  width:100%;
 }
-dropdown:hover > show
-{
+dropdown:hover > show{
  display:block;
 }
-dropdown > show:hover
-{
+dropdown > show:hover{
  display:block;
 }
-list
-{
- background-color:#282828;
- border-color:#F3F1E4;
- border-radius:2px;
- color:#AAAAAA;
+header{
+ background-color:#F3F1E4;
+ color:#777777;
  display:block;
+ font-size:4vh;
+ height:4vh;
+ line-height:4vh;
+ text-align:center;
 }
-list > show
-{
- background-color:#282828;
- border-color:#F3F1E4;
- border-radius:5px;
- color:#AAAAAA;
- display:none;
- padding:5px;
-}
-list:hover > show
-{
+in{
+ background-color:rgba(243,241,228,0.1);
+ border-radius:10px;
+ border-style:inset;
+ border-width:2px;
+ box-shadow:0px 0px 10px black inset;
+ color:#333333;
  display:block;
+ margin:3px;
+ padding:3px;
 }
-list > show:hover
-{
- display:block;
-}
-/*edit*/
-label
-{
- background-color:#282828;
+label{
+ background-color:#333333;
  border-color:#F3F1E4;
  border-radius:50px;
  border-style:solid;
  border-width:1px;
  color:#777777;
  display:block;
- height:25rem;
- line-height:25rem;
+ height:5vh;
+ line-height:5vh;
  position:fixed;
  right:15px;
  text-align:center;
- font-size:15px;
+ font-size:4vh;
  top:15px;
- transition:font-size 0.5s,height 0.5s,line-height 0.5s,width 0.5s;
- width:25px;
+ transition:background-color 0.5s,color 0.5s;
+ width:5vh;
 }
-label:hover
-{
+label:hover{
  background-color:#F3F1E4;
- border-color:#282828;
+ border-color:#333333;
  color:#333333;
- font-size:9px;
- height:15px;
- line-height:15px;
- width:15px;
 }
-label + aside
-{
- background-color:#282828;
- border-color:#F3F1E4;
+label + aside{
+ background-color:#333333;
+ border-color:#333333;
  border-width:1px;
  border-style:solid;
  height:100%;
  margin-top:0px;
  margin-bottom:0px;
- left:-200px;
+ left:-55%;
  position:fixed;
  transition:left 1s;
- width:150px;
+ width:50vw;
 }
-label:hover + aside
-{
+label:hover + aside{
  left:0px;
  transition:left 1s;
 }
-label + aside:hover
-{
+label + aside:hover{
  left:0px;
  transition:left 0.5s;
+}
+list{
+ background-color:#333333;
+ border-color:#F3F1E4;
+ border-radius:2px;
+ color:#AAAAAA;
+ display:block;
+}
+list > show{
+ background-color:#333333;
+ border-color:#F3F1E4;
+ border-radius:5px;
+ color:#AAAAAA;
+ display:none;
+ padding:5px;
+}
+list:hover > show{
+ display:block;
+}
+list > show:hover{
+ display:block;
+}
+o{
+ display:none;
+}
+button.option{
+
+ background-color:#333333;
+ color:#777777;
+ display:block;
+ font-size:4vh;
+ height:4vh;
+ line-height:4vh;
+ text-align:center;
+ transition:background-color 0.5s,color 0.5s;
+ width:100%;
+}
+option:hover{
+ background-color:#F3F1E4;
+ color:#777777;
+}
+out{
+ background-color:rgba(51,51,51,0.1);
+ border-radius:10px;
+ border-style:outset;
+ border-width:2px;
+ box-shadow:0px 0px 10px black;
+ color:#F3F4E4;
+ display:block;
+ margin:3px;
+ padding:3px;
+ transition:background-color 0.5s;
+}
+out:hover{
+  background-color:rgba(61,61,61,25);
+  color:#FFFFFF;
+}
+t{
+  display:block;
+  background-color:rgba(0,0,0,0.1);
 }

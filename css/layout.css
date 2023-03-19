@@ -1,0 +1,59 @@
+difficult-show
+{
+  display:inline-block;
+  min-width:50%;
+  min-width:60%;
+}
+difficult-show > describe
+{
+  display:block;
+  background-image:linear-gradient(to left,yellow,transparent);
+  border-color:#622223;
+  border-style:solid;
+  border-width:2px;
+  min-height:3%;
+  min-width:100%;
+}
+difficult-show > describe > content
+{
+  font-style:italic;
+  font-size:1.6vh;
+  line-height:10px;
+}
+difficult-show > describe > show
+{
+  font-weight:2px;
+  font-size:1.5vh;
+  line-height:10px;
+}
+one,two,three
+{
+  color:#622223;
+  font-size:1.5vh;
+  line-height:15px;
+  white-space:pre;
+}
+
+img-show
+{
+  display:inline-block;
+  float:right;
+  position:relative;
+  top:0%;
+  white-space:normal;
+}
+img-show > img
+{
+  display:block;
+  height:20vh;
+  right:0px;
+  width:20vh;
+}
+
+img-show > show
+{
+  bottom:0px;
+  color:#F3F4E4;
+  position:absolute;
+  right:50%;
+}

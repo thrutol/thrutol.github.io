@@ -1,0 +1,65 @@
+div
+{
+  background-color:rgba(0,0,0,0);
+}
+f0
+{
+  font-family:none;
+}
+f1
+{
+  font-family:"text";
+}
+f2
+{
+  font-family:"title";
+}
+f3
+{
+  font-family:"content";
+}
+@font-face{
+  font-family:"content";
+  src:url("../ttf/content.ttf");
+}
+@font-face{
+  font-family:"text";
+  src:url("../ttf/text.ttf");
+}
+@font-face{
+  font-family:"title";
+  src:url("../ttf/title.ttf");
+}
+h0
+{
+  font-size:4vh;
+}
+h1
+{
+  font-size:3.5vh;
+}
+h2
+{
+  font-size:3vh;
+}
+h3
+{
+  font-size:2.5vh;
+}
+h4
+{
+  font-size:2vh;
+}
+h5
+{
+  font-size:1.5vh;
+}
+
+ul
+{
+  list-style-type:none;
+}
+ul > li
+{
+  white-space:pre-wrap;
+}

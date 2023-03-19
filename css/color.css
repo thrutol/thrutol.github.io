@@ -15,7 +15,15 @@ a:hover
 }
 
 .bg-w{background-color:#F3F1E4;}
-.bg-n{background-color:#282828;}
+.bg-n{background-color:#333333;}
 .bg-m{background-color:#121212;}
 .txt-w{color:#ccc;font-family:"content";}
 .txt-n{color:#555;font-family:"text";}
+@font-face{
+  font-family:"content";
+  src:url("../ttf/content.ttf");
+}
+@font-face{
+  font-family:"text";
+  src:url("../ttf/text.ttf");
+}
