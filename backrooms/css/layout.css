@@ -2,7 +2,7 @@ difficult-show
 {
   display:inline-block;
   min-width:50%;
-  min-width:60%;
+  min-width:55%;
 }
 difficult-show > describe
 {
@@ -18,19 +18,19 @@ difficult-show > describe > content
 {
   font-style:italic;
   font-size:1.6vh;
-  line-height:10px;
+  line-height:2vh;
 }
 difficult-show > describe > show
 {
   font-weight:2px;
   font-size:1.5vh;
-  line-height:10px;
+  line-height:2vh;
 }
 one,two,three
 {
   color:#622223;
   font-size:1.5vh;
-  line-height:15px;
+  line-height:3vh;
   white-space:pre;
 }
 
