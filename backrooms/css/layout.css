@@ -1,10 +1,10 @@
-difficult-show
+sys.difficult
 {
   display:inline-block;
   min-width:50%;
   min-width:55%;
 }
-difficult-show > describe
+sys.difficult > show
 {
   display:block;
   background-image:linear-gradient(to left,yellow,transparent);
@@ -14,19 +14,19 @@ difficult-show > describe
   min-height:3%;
   min-width:100%;
 }
-difficult-show > describe > content
+sys.difficult > show > content
 {
   font-style:italic;
   font-size:1.6vh;
   line-height:2vh;
 }
-difficult-show > describe > show
+sys.difficult > show > value
 {
   font-weight:2px;
   font-size:1.5vh;
   line-height:2vh;
 }
-one,two,three
+sys.difficult > li
 {
   color:#622223;
   font-size:1.5vh;
@@ -34,7 +34,7 @@ one,two,three
   white-space:pre;
 }
 
-img-show
+sys.img
 {
   display:inline-block;
   float:right;
@@ -42,7 +42,7 @@ img-show
   top:0%;
   white-space:normal;
 }
-img-show > img
+sys.img > img
 {
   display:block;
   height:20vh;
@@ -50,10 +50,50 @@ img-show > img
   width:20vh;
 }
 
-img-show > show
+sys.img > show
 {
   bottom:0px;
   color:#F3F4E4;
   position:absolute;
   right:50%;
+}
+pos.left
+{
+    display:inline-block;
+    float:left;
+    margin-left:0%;
+    text-align:left;
+}
+pos.right
+{
+    display:inline-block;
+    float:right;
+    margin-right:0%;
+    text-align:right;
+}
+pos.top
+{
+    display:inline-block;
+    float:top;
+    margin-top:0%;
+}
+pos.bottom
+{
+    display:inline-block;
+    float:bottom;
+    margin-bottom:0%;
+}
+pos.horizontal
+{
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+pos.vertical
+{
+    display:inline-block;
+    margin-bottom:auto;
+    margin-top:auto;
+    line-height:100%;
 }
