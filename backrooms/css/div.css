@@ -4,7 +4,7 @@ div
 }
 in{
  background-color:rgba(243,241,228,0.2);
- border-radius:10px;
+ border-radius:0px;
  border-style:inset;
  border-width:2px;
  box-shadow:0px 0px 10px black inset;
@@ -19,7 +19,7 @@ in:hover
 }
 out{
  background-color:rgba(51,51,51,0.2);
- border-radius:10px;
+ border-radius:0px;
  border-style:outset;
  border-width:2px;
  box-shadow:0px 0px 10px black;
@@ -37,7 +37,17 @@ header{
  background-color:#F3F1E4;
  color:#777777;
  display:block;
- font-size:4vh;
+ font-size:;
+ height:4vh;
+ line-height:4vh;
+ text-align:center;
+}
+option
+{
+ background-color:transparent;
+ color:#777777;
+ display:inline-block;
+ font-size:;
  height:4vh;
  line-height:4vh;
  text-align:center;

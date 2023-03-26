@@ -47,8 +47,8 @@ body
 .dp-f{display:flex;}
 .dp-i{display:inherit;}
 .dp-l{display:inline;}
-.dp-lb{display:inline-block;}
-.dp-lt{display:inline-table;}
+.dp-ib{display:inline-block;}
+.dp-it{display:inline-table;}
 .dp-n{display:none;}
 .dp-m{display:list-item;}
 .dp-t{display:table;}

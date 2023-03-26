@@ -8,15 +8,20 @@ document.write('\
    @import url("../css/layout.css");\
    @import url("../css/size.css");\
    @import url("../css/div.css");\
-   @import url("../css/button.css");\
+   @import url("../css/option.css");\
    @import url("../css/list.css");\
    @import url("../css/input.css");\
   </style></head>\
   <label>≡</label>\
    <aside>\
-    <header><a href="../0/index.html">主页</a></header>\
-    <header><a href="../0/notice.html">公告</a></header>\
-    <button class="option w50"><a href="../0/normal-level.html">原创层级</a></button><button class="option w50"><a href="../0/normal-entity.html">原创实体</a></button><button class="option w50"><a href="../0/normal-object.html">原创物品</a></button><button class="option w50"><a href="../0/normal-group.html">原创团体</a></button>\
+    <a href="../0/index.html"><header>主页</header></a>\
+    <a href="../0/notice.html"><header>公告</header></a>\
+    <pos class="horizontal w100">\
+    <a href="../0/normal-level.html" class="dp-ib w45 h5"><option>原创层级</option></a>\
+    <a href="../0/normal-entity.html" class="dp-ib w45 h5"><option>原创实体</option></a>\
+    <a href="../0/normal-object.html" class="dp-ib w45 h5"><option>原创物品</option></a>\
+    <a href="../0/normal-group.html" class="dp-ib w45 h5"><option>原创团体</option></a>\
+    </pos>\
    </aside>\
   <t class="h25 txt-w" id="head"><br>\
    <p><b id="showtitle" style="font-size:5vh;"class="ws-w">null</b></p>\

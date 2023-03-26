@@ -49,17 +49,6 @@ label + aside:hover{
 o{
  display:none;
 }
-button.option{
-
- background-color:#333333;
- color:#777777;
- display:inline-block;
- font-size:4vh;
- height:4vh;
- line-height:4vh;
- text-align:center;
- transition:background-color 0.5s,color 0.5s;
-}
 option:hover{
  background-color:#F3F1E4;
  color:#777777;

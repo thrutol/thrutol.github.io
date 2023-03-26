@@ -57,43 +57,66 @@ sys.img > show
   position:absolute;
   right:50%;
 }
-pos.left
+sys.iets
+{
+    display:inline-block;
+    border-color:#F3F1E4;
+    border-style:double;
+    border-width:2px;
+    padding:5px;
+}
+sys.iets::before
+{
+    content:"IETS";
+}
+pos
+{
+    display:inline-block;
+}
+pos.left,.pos-left
 {
     display:inline-block;
     float:left;
     margin-left:0%;
     text-align:left;
 }
-pos.right
+pos.right,.pos-right
 {
     display:inline-block;
     float:right;
     margin-right:0%;
     text-align:right;
 }
-pos.top
+pos.top,.pos-top
 {
     display:inline-block;
     float:top;
     margin-top:0%;
 }
-pos.bottom
+pos.bottom.pos-bottom
 {
     display:inline-block;
     float:bottom;
     margin-bottom:0%;
 }
-pos.horizontal
+pos.horizontal,.pos-horizontal
 {
     display:inline-block;
     margin-left:auto;
     margin-right:auto;
     text-align:center;
 }
-pos.vertical
+pos.vertical,.pos-vertical
 {
     display:inline-block;
     margin-bottom:auto;
     margin-top:auto;
     line-height:100%;
+}
+pos.center,.pos-center
+{
+    display:inline-block;
+    margin:auto;
+    line-height:100%;
+    text-align:center;
 }

@@ -1,0 +1,85 @@
+<meta charset="utf-8">
+<title id="title"></title>
+<script src="../js/before.js"></script>
+<out>
+  复制前必须先安装git
+  <in>
+    $ pkg install git
+  </in>
+  想复制本站可以使用命令
+  <in>
+    $ git clone https://thrutol.github.io/
+  </in>
+</out>
+<out>
+  下面是文件夹解释<br>
+  https://thrutol.github.io/backrooms后室主目录(以下简称root)
+  <br>
+  <ul>
+    <li>
+      D:root/0/ 主要文件目录
+      <ul>
+        <li>index.html 主页</li>
+        <li>F:./notice.html 公告</li>
+        <li>F:./teaching.html 教程(也就是当前)</li>
+        <li>F:./normal-level.html 原创层级列表</li>
+        <li>F:./normal-object.html 原创物品列表</li>
+        <li>F:./normal-entity.html 原创实体列表</li>
+        <li>F:./hidden-level.html 原创隐藏层级列表</li>
+        <li>F:./hidden-entity.html 原创隐秘实体列表</li>
+        <li>F:./child-level.html 子层级列表</li>
+        <li>F:./empty-template.html 一个空白的模板</li>
+        <li>F:./normal-template.html 一个基础的层级模板</li>
+      </ul>
+    </li>
+    <li>
+      D:root/css/ css文件夹
+      具体可以复制来了解
+    </li>
+    <li>
+      D:root/js/ JS代码文件夹
+      <ul>
+        <li>F:./before.js 前置文件，必须搭配after.js使用，否则有bug</li>
+        <li>F:./after.js 前置文件，必须搭配before.js使用，否则有bug</li>
+      </ul>
+    </li>
+    <li>
+      D:root/normal-level/ 所有原创层级
+    </li>
+    <li>
+      D:root/normal-entity/ 所有原创实体
+    </li>
+    <li>
+      D:root/normal-object/ 所有原创物品
+    </li>
+    <li>
+      D:root/hidden-level/ 所有原创隐藏层级
+    </li>
+    <li>
+      D:root/hidden-entity/ 所有原创隐秘实体
+    </li>
+    <li>
+      D:root/child-level/ 所有子层级
+    </li>
+  </ul>
+</out>
+<out>
+  css讲解
+  <div class="ws-l">
+  sys.difficult 创建一个生存难度图片
+  sys.difficult > show 生存难度的方块(一般为生存难度:，等级n)
+  sys.difficult > show.style 方块的样式(一般设置"linear-gradient(to left,transparent,颜色的英文)")
+  sys.difficult > show > content 标题，一般为"生存难度:"
+  sys.difficult > show > value 等级,一般为"等级 n"
+  sys.difficult > li 显示的条目，可以有多个(一般为是否安全，是否稳定，实体数量)
+
+  
+  sys.img 创建一个显示的图片
+  sys.img > img 显示的图片
+  sys.img > show 图片描述文字
+  
+  sys.iets 创建一个实体的iets
+  </div>
+  
+</out>
+<script src="../js/after.js"></script>
