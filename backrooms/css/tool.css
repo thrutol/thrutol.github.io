@@ -1,5 +1,4 @@
 
-
 label{
  background-color:#333333;
  border-color:#F3F1E4;
@@ -49,12 +48,9 @@ label + aside:hover{
 o{
  display:none;
 }
-option:hover{
- background-color:#F3F1E4;
- color:#777777;
-}
+
 
 t{
   display:block;
-  background-color:rgba(0,0,0,0.1);
+  background-color:transparent;
 }

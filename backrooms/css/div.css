@@ -2,7 +2,7 @@ div
 {
   background:transparent;
 }
-in{
+in,.in{
  background-color:rgba(243,241,228,0.2);
  border-radius:0px;
  border-style:inset;
@@ -13,11 +13,11 @@ in{
  margin:3px;
  padding:3px;
 }
-in:hover
+in:hover,.in:hover
 {
   
 }
-out{
+out,.out{
  background-color:rgba(51,51,51,0.2);
  border-radius:0px;
  border-style:outset;
@@ -29,11 +29,11 @@ out{
  padding:3px;
  transition:background-color 0.5s;
 }
-out:hover{
+out:hover,.out:hover{
   background-color:rgba(110,110,110,0.2);
   color:#F3F1E4;
 }
-header{
+header,.header{
  background-color:#F3F1E4;
  color:#777777;
  display:block;
@@ -42,13 +42,21 @@ header{
  line-height:4vh;
  text-align:center;
 }
-option
+option,.option
 {
  background-color:transparent;
+ border-color:#F3F1E4;
+ border-style:outset;
+ border-width:1px;
  color:#777777;
  display:inline-block;
  font-size:;
  height:4vh;
  line-height:4vh;
  text-align:center;
+}
+option:hover,.option:hover{
+ background-color:#F3F1E4;
+ border-style:inset;
+ color:#777777;
 }

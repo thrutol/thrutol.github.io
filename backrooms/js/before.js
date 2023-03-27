@@ -17,10 +17,10 @@ document.write('\
     <a href="../0/index.html"><header>主页</header></a>\
     <a href="../0/notice.html"><header>公告</header></a>\
     <pos class="horizontal w100">\
-    <a href="../0/normal-level.html" class="dp-ib w45 h5"><option>原创层级</option></a>\
-    <a href="../0/normal-entity.html" class="dp-ib w45 h5"><option>原创实体</option></a>\
-    <a href="../0/normal-object.html" class="dp-ib w45 h5"><option>原创物品</option></a>\
-    <a href="../0/normal-group.html" class="dp-ib w45 h5"><option>原创团体</option></a>\
+    <a href="../0/normal-level.html" class="dp-ib w48 h5 option">原创层级</a>\
+    <a href="../0/normal-entity.html" class="dp-ib w48 h5 option">原创实体</a>\
+    <a href="../0/normal-object.html" class="dp-ib w48 h5 option">原创物品</a>\
+    <a href="../0/normal-group.html" class="dp-ib w48 h5 option">原创团体</a>\
     </pos>\
    </aside>\
   <t class="h25 txt-w" id="head"><br>\
