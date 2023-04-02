@@ -11,7 +11,7 @@ sys.difficult > show
   border-color:#622223;
   border-style:solid;
   border-width:2px;
-  min-height:3%;
+  min-height:8%;
   min-width:100%;
 }
 sys.difficult > show > content
@@ -30,7 +30,8 @@ sys.difficult > li
 {
   color:#622223;
   font-size:1.5vh;
-  line-height:3vh;
+  line-height:2vh;
+  list-style:none;
   white-space:pre;
 }
 
@@ -55,7 +56,7 @@ sys.img > show
   bottom:0px;
   color:#F3F4E4;
   position:absolute;
-  right:50%;
+  right:40%;
 }
 sys.iets
 {

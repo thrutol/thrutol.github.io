@@ -1,14 +1,10 @@
 *
 {
   color:#F3F1E4;
-  font-family:"text";
-  font-size:1vh;
 }
 html
 {
-  background-image:url("../image/background.jpg");
-  background-attachment:fixed;
-  background-repeat:round;
+  background-color:#333333;
   margin:0px;
   padding:0px;
 }
@@ -16,6 +12,10 @@ body
 {
  margin:0px;
  padding:0px;
+}
+p
+{
+    font-size:60%;
 }
 .ba-f{background-attachment:fixed;}
 .ba-i{background-attachment:inherit;}
@@ -38,7 +38,6 @@ body
 .bs-u{border-style:double;}
 .bs-c{background-size:contain;}
 .bs-v{background-size:cover;}
-
 .di-i{direction:inherit;}
 .di-l{direction:ltr;}
 .di-r{direction:rtl;}
@@ -74,6 +73,25 @@ body
 .lh-n{line-height:normal;}
 .ls-i{letter-spacing:inherit;}
 .ls-n{letter-spacing:inherit;}
+.ls-di{list-style:disc;}
+.ls-ci{list-style:circle;}
+.ls-sq{list-style:square;}
+.ls-de{list-style:decimal;}
+.ls-lr{list-style:lower-roman;}
+.ls-ur{list-style:upper-roman;}
+.ls-la{list-style:lower-alpha;}
+.ls-ua{list-style:upper-alpha;}
+.ls-ar{list-style:armenian;}
+.ls-cj{list-style:cjk-ideographic;}
+.ls-ge{list-style:georgian;}
+.ls-lg{list-style:lower-greek;}
+.ls-he{list-style:hebrew;}
+.ls-hr{list-style:hiragana;}
+.ls-hi{list-style:hiragana-iroha;}
+.ls-ka{list-style:katakana;}
+.ls-ki{list-style:katakana-iroha;}
+.ls-ll{list-style:lower-latin;}
+.ls-ul{list-style:upper-latin;}
 .lsi-i{list-style-image:inherit;}
 .lsi-n{list-style-image:none;}
 .lsp-i{list-style-position:inherit;}
@@ -84,17 +102,6 @@ body
 .po-f{position:fixed;}
 .po-r{position:relative;}
 .po-s{position:static;}
-
-.R-100{right:100%;}
-.R-50{right:50%;}
-.R-25{right:25%;}
-.R-20{right:20%;}
-.R-10{right:10%;}
-.R-5{right:5%;}
-.R-4{right:4%;}
-.R-2{right:2%;}
-.R-1{right:1%;}
-.R{right:0%;}
 
 .sb-is{box-shadow:0px 0px 5px #000 inset;}
 .sb-im{box-shadow:0px 0px 10px #000 inset;}

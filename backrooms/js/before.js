@@ -21,9 +21,10 @@ document.write('\
     <a href="../0/normal-entity.html" class="dp-ib w48 h5 option">原创实体</a>\
     <a href="../0/normal-object.html" class="dp-ib w48 h5 option">原创物品</a>\
     <a href="../0/normal-group.html" class="dp-ib w48 h5 option">原创团体</a>\
+    <a href="../0/css.html" class="dp-ib w100 h5 option">CSS教程</a>\
     </pos>\
    </aside>\
   <t class="h25 txt-w" id="head"><br>\
    <p><b id="showtitle" style="font-size:5vh;"class="ws-w">null</b></p>\
-   <pre><b style="font-size:4vh;" id="subtitle">    后室TH版</b></pre>\
-  </t><in class="txt-w m2 hi50" id="content">');
+   <pre>    <b style="font-size:4vh;" id="subtitle">后室TH版</b></pre>\
+  </t><in class="txt-w hi50" id="content">');

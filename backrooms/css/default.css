@@ -2,31 +2,35 @@ div
 {
   background-color:rgba(0,0,0,0);
 }
-f0
+p
 {
-  font-family:none;
+  
 }
-f1
+i
 {
-  font-family:"text";
+  
 }
-f2
+b
 {
-  font-family:"title";
+  
 }
-f3
+del
 {
-  font-family:"content";
+  
 }
-@font-face{
-  font-family:"content";
-  src:url("../ttf/content.ttf");
+unl
+{
+  text-decoration:underline;
 }
-@font-face{
-  font-family:"text";
-  src:url("../ttf/text.ttf");
+ovl
+{
+  text-decoration:overline;
 }
-@font-face{
-  font-family:"title";
-  src:url("../ttf/title.ttf");
+obl
+{
+  font-style:oblique;
+}
+l
+{
+  display:inline-block;
 }
